@@ -242,9 +242,9 @@ int main(int argc , char const *argv[]){
 
 			HashMap ** HashArray = new HashMap* [details->numberOfHashingArrays];
 
-		  for(int i = 0; i < details->numberOfHashingArrays ; i++){
-		      HashArray[i] = new HashMap();
-		  }
+			for(int i = 0; i < details->numberOfHashingArrays ; i++){
+				HashArray[i] = new HashMap();
+			}
 
 			cout << "Molis dimiourgithikan L Hash Arrays <3 " << endl;
 			readingFromFile(details->inputFile , HashArray, details);
